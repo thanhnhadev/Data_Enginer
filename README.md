@@ -7,7 +7,7 @@ ex:ldkiDerhQGiuQ7AOrVWl3Q
 
 .\bin\windows\kafka-storage.bat format -t <UUID> -c .\config\kraft\server.properties
 
-ex:.\bin\windows\kafka-storage.bat format -t ldkiDerhQGiuQ7AOrVWl3Q -c .\config\kraft\server.properties
+ex:.\bin\windows\kafka-storage.bat format -t nYCLTSU8SZG8jjVoCuUg_Q -c .\config\kraft\server.properties
 
 # when run finish we're start server with termnial
 .\bin\windows\kafka-server-start.bat .\config\kraft\server.properties
