@@ -1,4 +1,17 @@
 "# Data_Enginer" 
+
+# check winget having in window
+winget -v
+
+# finding JDK 17
+winget search Microsoft.OpenJDK.17
+
+# install jdk 17
+winget install --id Microsoft.OpenJDK.17 -e
+
+# set enviroment in windows
+KAFKA_HOME 
+file kafka
 # random open terminal
 .\bin\windows\kafka-storage.bat random-uuid
 
@@ -35,3 +48,6 @@ kafka-console-producer.bat --bootstrap-server localhost:9092 --topic <topicName>
 
 # import Mysql server in edit enviroment with file path
 C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+# fix error "wmic"
+$env:KAFKA_HEAP_OPTS = "-Xms512m -Xmx1024m"
